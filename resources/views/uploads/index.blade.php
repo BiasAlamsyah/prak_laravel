@@ -32,7 +32,7 @@
     					<th>Number</th>
     					<th>Name</th>
     					<th>Image</th>
-              <th>File</th>
+              			<th>Sinopsis</th>
     				</tr>
     			</thead>
     			<tbody>
@@ -41,7 +41,7 @@
     					<td>{{ ++$i }}</td>
     					<td>{{ $upload->name }}</td>
     					<td><img width="250" src="{{ URL::to('/uploads/' . $upload->image) }}" alt="{{ $upload->name }}" /></td>
-              <td><a class="btn btn-success" href="{{ URL::to('/uploads/' . $upload->file) }}" target="_blank"> Download</a></td>
+              			<td>{{ $upload->sinopsis}}</td>
     				</tr>
     				@endforeach
           </tbody>

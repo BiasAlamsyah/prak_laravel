@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'port' => env('MAIL_PORT', 587),
+    'port' => env('MAIL_PORT', 2525),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'weblanjutc2.2017@gmail.com'),
-        'name' => env('MAIL_FROM_NAME', 'Web Lanjut'),
+        'address' => env('MAIL_FROM_ADDRESS', 'bernadbear17@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'Bias A'),
     ],
 
     /*
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('MAIL_USERNAME','bernadbear17@gmail.com'),
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('MAIL_PASSWORD','Yukinaqeichiru09'),
 
     /*
     |--------------------------------------------------------------------------

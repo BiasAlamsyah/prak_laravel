@@ -18,31 +18,20 @@ Route::get('/', function () {
 Route::get('about', function () {
     return view('about');
 });
-
-Route::get('pesan', function () {
-    return view('pesan');
+Route::get('forum', function(){
+	return view('forum');
 });
-
-Route::post('pesan/kirim', function () {
-    return view('pesan_kirim');
-});
-
-
-Route::get('template', function () {
-    return view('coba1');
-});
-
-Route::get('coba1', function () {
-    return view('coba1');
-});
-
-Route::get('coba2', function () {
-    return view('coba2');
-});
+Route::get('list',['as'=>'list','uses'=>'UploadController2@index2']);
+Route::get('/',['as'=>'welcome','uses'=>'UploadController3@index2']);
 
 Route::get('upload',['as'=>'upload.index','uses'=>'UploadController@index']);
 Route::get('upload/create',['as'=>'upload.create','uses'=>'UploadController@create']);
 Route::post('upload',['as'=>'upload.store','uses'=>'UploadController@store']);
+
+Route::get('review',['as'=>'review.index','uses'=>'ReviewController2@index']);
+Route::get('review',['as'=>'review.index','uses'=>'ReviewController@index']);
+Route::get('review/create',['as'=>'review.create','uses'=>'ReviewController@create']);
+Route::post('review',['as'=>'review.store','uses'=>'ReviewController@store']);
 
 Auth::routes();
 

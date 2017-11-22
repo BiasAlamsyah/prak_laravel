@@ -8,5 +8,5 @@ class Upload extends Model
 {
   protected $table = 'uploads';
 
-  public $fillable = ['name', 'image', 'file'];
+  public $fillable = ['name', 'sinopsis', 'date', 'image'];
 }

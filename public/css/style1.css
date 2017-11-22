@@ -1,0 +1,213 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;direction: ltr;}
+html{ display: block;}
+body{
+	font-size:14px;
+	color:#3F3F3F;
+	background-size: cover;
+}
+body {
+	line-height: 1;
+}
+ol, ul{
+	list-style: none;
+}
+.kbox .konten .isi .post ul li{
+	overflow: hidden;
+    padding: 10px 10px;
+    border-bottom: 2px dotted #eee;
+}
+/*menu*/
+#menux{
+	z-index:999;
+	width: 100%;
+}
+.centerx{
+	width:990px ;/*width 990px*/
+	margin:0px auto;/*geser lokasi menu default : 0 auto;*/
+}
+#cssmenu{
+	padding:0;
+	position:relative;
+	margin:0px auto 0px;
+	background:#ff859f;
+}
+#cssmenu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:block;
+}
+#cssmenu>ul>li {
+	width:auto;
+	float:left;
+}
+#cssmenu ul li{
+	margin: 0;
+	padding: 0;
+	display:block;
+	position:relative;
+}
+#cssmenu>ul>li>a {
+	letter-spacing:1px;
+	padding:16px 10px;
+	font-weight:400;
+	font-size:13px;
+	z-index:2;
+	position:relative;
+	display:block;
+}
+#cssmenu ul li a{
+	text-decoration:none;
+	margin:0;
+}
+#cssmenu:after{
+	content:' ';
+	display: block;
+	font-size:0;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+/* konten*/
+#body{
+	width: 990px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+.kbox .konten .isi .post{
+	width:100%;
+}
+.kbox{
+	overflow: hidden;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.konten .kbox{
+	overflow: hidden;
+	width:100%;
+}
+.konten{
+	overflow: hidden;
+}
+.isi{
+	width:100%;
+	margin:0 auto;
+	margin-bottom: 10px;
+	padding-top:8px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.16);
+}
+.jdlpost{
+	background-color: dimgrey;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+	color: ghostwhite;
+}
+.kbox .isi .post ul li{
+	display:;
+	
+}
+.kbox .isi .post ul li .tumbn{
+	float: left;
+    overflow: hidden;
+    height: 250px;/* standar 640 x 360*/
+	padding-left: 240px;;
+}
+.kbox .isi .post ul li .tumbn img {
+    width: auto;
+    height: 250px;
+	
+}
+.kbox .isi .post ul li .detail{
+	width: 600px;
+    padding: 5px;
+    height:270px;
+    float: left;
+    line-height: normal;
+}
+/*NAVBAR*/
+/*list page*/
+.cbox{
+	padding-top: 65px;
+	padding-left: 60px;
+}
+.card{
+	background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px #e3ebf3;
+    display: inline-block;
+    font-size: 1.1em;
+    height: 290px;
+    margin: 10px;
+    max-width: 400px;
+    position: relative;
+    width: 100%;
+}
+.cbox .card .image{
+	position:relative;
+	width:400px;
+}
+.cbox .card .image img{
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2px 0 0 2px;
+    display: inline-block;
+    height: 100%;
+    max-width: 185px;
+    position: relative;
+    width: 100%;
+}
+.cbox .card .image .info {
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border-radius: 0 2px 2px 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    font-size: .55em;
+    height: 290px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    max-width: 210px;
+}
+.cbox .card .image .info div{
+	border: 2px dotted #eee;
+	height:100%;
+}
+.cbox .card .image .info .airing{
+	height:auto;
+}
+.cbox .card .image .info #nama{
+	height:auto;
+	text-align:center;
+}
+.cbox .card .image .info .description{
+	font-size:12px;
+}
+.description:hover{
+	overflow-y:scroll;
+}
+#demo {
+	max-width:185px;
+}
+/*CHAT CHAT*/
+.chat{
+	padding-top:20px;
+	width: 1200px;
+	height: 550px;
+}
