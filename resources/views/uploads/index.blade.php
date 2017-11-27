@@ -10,7 +10,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <h1>Upload and Download Image & File</h1>
+        <h1>Upload Film</h1>
     		@if ($message = Session::get('success'))
     			<div class="alert alert-success">
     				<p>{{ $message }}</p>
